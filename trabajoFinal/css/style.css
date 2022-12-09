@@ -62,14 +62,26 @@ p {
 
 }
  .final{
-  min-width: 100%;
+  background-image: url(../images/john-raptis.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   height: auto;
-  text-align: center;
+  text-align: right;
 }
 
 .final img {
   width: 100%;
 }
+.final .span{
+   text-align:left;
+  font-family: verdana;
+  color: white;
+  margin: 70px 50px;
+  float: right;
+}
+
+
   footer nav{
   background: linear-gradient(to bottom right, rgb(235, 81, 64), rgb(255, 0, 136));
   height: 300px;
@@ -105,4 +117,11 @@ footer{
 
 .clear{
   clear:both;
+}
+
+.info2 a {
+color: white;
+text-decoration: none;
+padding:10px;
+
 }
